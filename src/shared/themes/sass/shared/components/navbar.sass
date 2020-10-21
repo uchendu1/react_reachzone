@@ -1,0 +1,57 @@
+@import '../../variables'
+@import '../../config'
+#_navbar._navbar
+  width: 100%
+  height: 88px
+  background-color: $seashell
+  padding-left: 30px
+  padding-right: 34px
+  img.logo
+    height: 32px;
+    width: 120px;
+  .desktop-options  
+    display: none
+
+
+
+
+// media queries
+@include media(">tablet") 
+  #_navbar._navbar
+    padding-left: 165px
+    padding-right: 145px
+    color: $onyx
+    img.logo
+      height: 32px;
+      width: 216px;
+    .hamburger  
+      display: none
+    .desktop-options  
+      display: flex  
+      .categories
+        margin-right: 56px
+        text-align: center
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        i
+          font-size: 6px
+          margin-left: 16px
+          margin-bottom: 10px
+
+      .faq
+        @extend .categories
+        margin-right: 64px 
+      button.postjob
+        width: 231px;
+        height: 52px;
+        border: none
+        background-color: $english-red
+        color: $white
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+
