@@ -1,13 +1,16 @@
 import React from 'react'
-import { Navbar } from './shared/components'
-import './shared/themes/sass/main.sass'
+// import { Navbar } from './shared/components'
+import './themes/sass/main.sass'
+import Header from './components/Header'
+
 
 
 function App () {
   return (
-    <div className='App'>
-      <Navbar />
-    </div>
+    <>
+       <Header/>
+
+      </>
   )
 }
 

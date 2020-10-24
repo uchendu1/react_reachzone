@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dream-job{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+  
+}    
+.con{
+  background-color: #F6F6F6;
+}
+
+.over{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  }
+  .find-jobs{
+    background-color: #FD2648; 
+    border-radius: 0.5rem;
+    
+  }
+
+  .input1{
+    border: none;
+  }
+
+  .no-outline:focus {
+    outline: none;
+  }
