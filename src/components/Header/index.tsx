@@ -7,7 +7,7 @@ import '../../themes/sass/main.sass'
 export default () => {
   return (
     <>
-      <div className="con">
+      <div className="con container-fluid">
         <Navbar />
         <HeaderBody />
       </div>

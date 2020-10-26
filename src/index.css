@@ -27,11 +27,13 @@ code {
   font-family: Mulish;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   }
   .find-jobs{
-    background-color: #FD2648; 
-    border-radius: 0.5rem;
+    background-color: #FD2648;
+    border: #FD2648;
+
+    /* border-radius: 0.5rem; */
     
   }
 
@@ -42,3 +44,21 @@ code {
   .no-outline:focus {
     outline: none;
   }
+
+  .white{
+    background-color: white;
+  }
+
+  .searchbarCon {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* color: green; */
+  }
+
+  @media screen and (max-width: 768px){ 
+    .searchbarCon .col-sm-9{
+      padding:0 10px !important;      /* color: green; */
+    }
+  
+    }
+  
